@@ -26,9 +26,6 @@ public class InList {
 	public String display() {
 		return bookList.toString().replace("[", "").replace("]", "");
 	}
-	public String displayHash() {
-		return bookMap.toString();
-	}
 	public ArrayList<Book> getBookList() {
 		return bookList;
 	}
